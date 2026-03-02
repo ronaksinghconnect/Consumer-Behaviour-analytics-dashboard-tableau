@@ -107,6 +107,7 @@ Implications:
 
 ## Question 3 — Top 10 Customers by Revenue
 
+![Top Customers](assets/top%20customers.png)
 ### Business Objective
 The CMO wanted:
 - Top 10 customers ranked by revenue
