@@ -288,3 +288,362 @@ This project demonstrates how executive-level business questions can be translat
 - Behavioral customer segmentation (RFM)
 
 The result is a complete analytical workflow from raw transactional data to executive-ready strategic insights.
+.
+..
+...
+# Tata Retail Sales & RFM Customer Behavior Analysis  
+### Executive-Focused Tableau Dashboard Project
+
+This project presents a structured, executive-ready analysis of retail sales and customer behavior using Tableau.  
+
+The analysis is divided into **three strategic dashboards**, each answering a different layer of business decision-making:
+
+1. RFM Analytics Dashboard (Customer Value & Behavior)
+2. Comparative Performance Dashboard (Revenue vs Orders vs Demand)
+3. Countries & Behavioral Insights Dashboard (Geographic + Churn Intelligence)
+
+Key Analytical Techniques Applied
+---
+RFM Customer Segmentation Analysis
+
+Multi-Metric Demand Analysis (Revenue + Quantity + Orders)
+
+Time-Series Revenue Trend Analysis
+
+Pareto / Revenue Concentration Analysis
+
+Geographic Revenue & Market Performance Analysis
+
+# 1️⃣ RFM Analytics Dashboard  
+### Understanding Customer Value & Revenue Drivers
+
+---
+
+## Business Objective
+
+To answer:
+
+- Who are our most valuable customers?
+- Which segments drive revenue growth?
+- Which customers are at risk of churn?
+- How do Recency, Frequency, and Monetary values differ across segments?
+
+---
+
+## Sheet 1 — Total Sales (RFM Segmented Trend)
+
+### What It Shows
+Monthly revenue trend segmented by:
+- Champions  
+- Loyal Customers  
+- Big Spenders  
+- At Risk  
+- Lost / Low-Value  
+
+### Key Metrics Observed
+
+- Peak monthly revenue reached approximately **₹53,00,000+**
+- Champions segment drives majority of total revenue spikes.
+- Loyal Customers show stable mid-level contribution.
+- Big Spenders contribute less frequently but spike occasionally.
+- Revenue drops noticeably in final visible month after peak.
+
+### Business Insight
+
+Revenue growth is **segment-driven**, not evenly distributed.
+
+Champions are responsible for revenue volatility and upside peaks.
+If Champion retention declines, revenue immediately contracts.
+
+Strategic Action:
+- Protect Champions.
+- Upgrade Loyal Customers into Champion tier.
+- Monitor At-Risk segment before decline accelerates.
+
+---
+
+## Sheet 2 — Customer Category Count
+
+### What It Shows
+Distinct count of customers per RFM segment.
+
+### Observed Distribution
+
+- Loyal Customers: **1,440**
+- Lost / Low-Value: **958**
+- Champions: **910**
+- At Risk: **769**
+- Big Spenders: **262**
+
+### Business Interpretation
+
+Largest group = Loyal Customers (volume strength).  
+Smallest group = Big Spenders (high-value niche).
+
+However:
+Revenue contribution is not proportional to count.
+
+This confirms:
+High-value revenue comes from smaller segments.
+
+---
+
+## Sheet 3 — Recency Average (Days Since Last Purchase)
+
+### Observed Values
+
+- Lost / Low-Value: **245 days**
+- At Risk: **177 days**
+- Loyal Customers: **57 days**
+- Big Spenders: **55 days**
+- Champions: **35 days**
+
+### Insight
+
+Champions purchase most recently.
+Lost customers show extreme inactivity.
+
+Recency strongly correlates with revenue strength.
+
+---
+
+## Sheet 4 — Frequency Average (Distinct Orders)
+
+### Observed Values
+
+- Champions: **12 orders**
+- Loyal Customers: **3 orders**
+- At Risk: **3 orders**
+- Big Spenders: **2 orders**
+- Lost: **1 order**
+
+### Insight
+
+Champions are behaviorally dominant.
+
+Frequency is the strongest differentiator between Champions and other segments.
+
+---
+
+## Sheet 5 — Monetary Average (Revenue Contribution)
+
+### Observed Values
+
+- Champions: **₹6,253**
+- Big Spenders: **₹2,369**
+- At Risk: **₹1,448**
+- Loyal Customers: **₹875**
+- Lost: **₹239**
+
+### Strategic Interpretation
+
+Monetary concentration is extreme.
+
+Champions generate ~7x more revenue than Loyal Customers on average.
+
+Revenue risk is heavily tied to this segment.
+
+---
+
+# 2️⃣ Comparative Dashboard  
+### Relationship Between Revenue, Orders & Demand
+
+---
+
+## Sheet 1 — Revenue vs Number of Orders
+
+### What It Shows
+Scatter plot comparing:
+- Sum of Revenue
+- Distinct Invoice Count
+
+### Observations
+
+- Champions cluster in high revenue + high order zone.
+- Some customers show high revenue but low order frequency.
+- Median lines highlight separation between majority and high performers.
+- Revenue ranges from very low to over **₹1,00,000+** per customer.
+
+### Insight
+
+Not all high-revenue customers are high-frequency.
+
+Some customers are bulk buyers.
+
+This distinction is critical for retention strategy.
+
+---
+
+## Sheet 2 — Quantity vs Revenue (RFM Customers)
+
+### Observations
+
+- Strong positive relationship between revenue and quantity.
+- Some outliers generate extremely high revenue (~**₹2,50,000+**).
+- Champions dominate upper-right quadrant.
+- Lost and At-Risk cluster in low revenue, low quantity zone.
+
+### Interpretation
+
+Revenue growth is primarily volume-driven.
+
+High-quantity buyers are key revenue multipliers.
+
+---
+
+## Sheet 3 — Top 10 Revenue Products + RFM Segmentation
+
+### Observations
+
+- Revenue per product ranges approx **₹27,00,000 to ₹45,00,000**.
+- Champions dominate contribution across all top SKUs.
+- Loyal and Big Spenders contribute secondary layers.
+- Certain stock codes consistently outperform others.
+
+### Insight
+
+Product demand is highly segment-driven.
+
+Champions influence product success.
+
+SKU-level marketing can be tied to high-value segments.
+
+---
+
+## Sheet 4 — Customer Base Distribution (%)
+
+### Observed Breakdown
+
+- Loyal Customers: **33.19%**
+- Lost / Low-Value: **22.08%**
+- Champions: **20.97%**
+- At Risk: **17.72%**
+- Big Spenders: **6.04%**
+
+### Strategic View
+
+Champions are only ~21% of customers  
+But generate disproportionate revenue.
+
+This is a classic Pareto structure.
+
+---
+
+# 3️⃣ Countries & Behavior Dashboard  
+### Geographic Revenue & Risk Analysis
+
+---
+
+## Sheet 1 — Top 5 Countries by Revenue
+
+### Observations
+
+- United Kingdom: **₹73.2L+**
+- Netherlands: ~₹2.85L
+- EIRE: ~₹2.65L
+- Germany: ~₹2.28L
+- France: ~₹2.09L
+
+### Insight
+
+UK dominates revenue massively.
+
+Revenue concentration risk is high.
+
+Diversification required.
+
+---
+
+## Sheet 2 — Bottom 5 Countries
+
+### Observations
+
+- Brazil: ~₹1,143
+- RSA: ~₹1,002
+- Czech Republic: ~₹826
+- Bahrain: ~₹548
+- Saudi Arabia: ~₹145
+
+### Interpretation
+
+These markets are underdeveloped.
+
+Expansion viability should consider:
+- Demand consistency
+- Marketing cost efficiency
+
+---
+
+## Sheet 3 — Churn % (60 Days)
+
+### Observed Values
+
+- Lost / Low-Value: **100%**
+- At Risk: **100%**
+- Big Spenders: **12%**
+- Loyal Customers: **12%**
+- Champions: **0%**
+
+### Critical Insight
+
+Champions show zero churn in 60-day window.
+
+At Risk and Lost segments are fully disengaged.
+
+Churn prevention should focus before customers transition into Lost.
+
+---
+
+## Sheet 4 — Median Days to 2nd Purchase
+
+### Observed Values
+
+- Champions: **33 days**
+- At Risk: **55 days**
+- Loyal Customers: **70 days**
+- Lost: **71 days**
+- Big Spenders: **83 days**
+
+### Insight
+
+Champions repurchase fastest.
+
+Longer repurchase gaps correlate with lower engagement.
+
+Second purchase timing is a predictive retention indicator.
+
+---
+
+# Strategic Business Conclusions
+
+1. Revenue is highly concentrated in Champion customers.
+2. Geographic revenue is heavily dependent on UK.
+3. Quantity and revenue are positively correlated.
+4. Customer behavior segmentation provides actionable retention paths.
+5. Early churn signals are visible in Recency and 2nd purchase timing.
+6. Product-level performance is segment-driven.
+7. Revenue sustainability depends on protecting top-tier customers.
+
+---
+
+# Tools Used
+
+- Microsoft Excel (Data Cleaning & RFM Calculation)
+- Tableau (Dashboard & Visualization)
+- Percentile-Based Segmentation Logic
+
+---
+
+# Executive Summary
+
+This project demonstrates how structured RFM segmentation combined with:
+
+- Time-series revenue analysis
+- Geographic concentration analysis
+- Order vs revenue relationship modeling
+- Demand ranking logic
+- Churn behavior monitoring
+
+can transform raw transaction data into strategic, decision-support intelligence.
+
+The dashboards are designed for leadership-level clarity, focusing on risk exposure, growth levers, and customer value concentration.
