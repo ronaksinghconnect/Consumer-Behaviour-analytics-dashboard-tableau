@@ -318,7 +318,7 @@ Geographic Revenue & Market Performance Analysis
 ### Understanding Customer Value & Revenue Drivers
 
 ---
-
+![RFM Analytics Dashboard](assets/RFM%20analytics%20dashboard.png)
 ## Business Objective
 
 To answer:
@@ -449,7 +449,7 @@ Revenue risk is heavily tied to this segment.
 ### Relationship Between Revenue, Orders & Demand
 
 ---
-
+![Comparative Dashboard](assets/comparitive%20dashboard.png)
 ## Sheet 1 — Revenue vs Number of Orders
 
 ### What It Shows
@@ -533,7 +533,7 @@ This is a classic Pareto structure.
 ### Geographic Revenue & Risk Analysis
 
 ---
-
+![Countries and Behaviour Dashboard](assets/countries%20and%20behaviour%20dashboard.png)
 ## Sheet 1 — Top 5 Countries by Revenue
 
 ### Observations
