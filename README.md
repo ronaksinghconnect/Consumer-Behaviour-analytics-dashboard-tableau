@@ -71,6 +71,7 @@ Champion customers account for a disproportionate share of total sales. Therefor
 
 ## Question 2 — Top 10 Countries by Revenue (Excluding United Kingdom)
 
+![Countries Revenue](assets/countries%20revenue.png)
 ### Business Objective
 The CMO requested:
 - Top 10 countries generating highest revenue
