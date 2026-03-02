@@ -603,7 +603,7 @@ Churn prevention should focus before customers transition into Lost.
 - Loyal Customers: **70 days**
 - Lost: **71 days**
 - Big Spenders: **83 days**
-
+Median was used because second-purchase timing is skewed by extreme delays, and median shows the typical customer behavior without outlier distortion
 ### Insight
 
 Champions repurchase fastest.
