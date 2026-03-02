@@ -24,6 +24,8 @@ The project contains:
 - Independent extended exploration using advanced segmentation and ranking logic
 - Data cleaning aligned strictly with the instructions provided
 
+ 
+![Consumer Analytics Dashboard](assets/consumer%20analytics%20dashboard.png)
 ---
 
 # Business Questions & Dashboard Insights
