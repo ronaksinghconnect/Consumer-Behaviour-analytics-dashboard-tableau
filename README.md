@@ -139,7 +139,9 @@ Implications:
 ---
 
 ## Question 4 — Demand Analysis & Expansion Opportunities (CEO)
-
+| Rank Top 5 | Top 5 Countries Demand |
+|------------|------------------------|
+| ![](assets/rank%20top%205.png) | ![](assets/top%205%20countries%20demand.png) |
 ### Business Objective
 
 The CEO requested:
