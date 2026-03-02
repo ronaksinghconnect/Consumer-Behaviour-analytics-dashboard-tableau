@@ -33,7 +33,9 @@ The project contains:
 ---
 
 ## Question 1 — Monthly Revenue Trends for 2011 (CEO)
-
+| Total Sales | Total Sales RFM |
+|-------------|-----------------|
+| ![](assets/Total%20sales.png) | ![](assets/Total%20sales%20rfm.png) |
 ### Business Objective
 The CEO wanted to:
 - View revenue trends for 2011 only
