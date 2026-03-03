@@ -23,7 +23,8 @@ The project contains:
 - Required stakeholder question analysis (as per simulation instructions)
 - Independent extended exploration using advanced segmentation and ranking logic
 - Data cleaning aligned strictly with the instructions provided
-
+ 
+ 2  tableau openable file attached with data 
  
 ![Consumer Analytics Dashboard](assets/consumer%20analytics%20dashboard.png)
 ---
