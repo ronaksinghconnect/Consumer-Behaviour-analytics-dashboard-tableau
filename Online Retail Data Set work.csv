@@ -1,0 +1,7 @@
+quantity - deleted and unit price less than 0 deleted and added a revenue column,,,
+column ,problem,count,changed
+quanity,negative number,10624,yes
+unitprice,0,1179,yes
+description,missing blank,1454,no
+stock code,letter only,2916,no
+unitprice,negative number,2,no
